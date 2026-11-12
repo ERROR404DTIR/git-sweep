@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-sweep"
+version = "1.0.0"
+description = "Safely clean up merged, stale and orphaned local git branches. Dry run by default."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["git", "branches", "cleanup", "cli", "devtools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.urls]
+Homepage = "https://github.com/ERROR404DTIR/git-sweep"
+
+[project.scripts]
+git-sweep = "git_sweep:main"
+
+[tool.setuptools]
+py-modules = ["git_sweep"]

@@ -1,4 +1,6 @@
 <p align="center">
+
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated Git Sweep banner" width="100%"></p>
   <img src="assets/banner.svg" alt="git-sweep - tidy your branches, safely" width="820">
 </p>
 
@@ -51,8 +53,8 @@ Dry run: 2 branch(es) would be deleted. Re-run with --delete to apply.
 
 $ git sweep --delete
 Delete 2 branch(es)? [y/N] y
-✔ deleted feature/login-form
-✔ deleted fix/typo-readme
+ deleted feature/login-form
+ deleted fix/typo-readme
 ```
 
 | Command | What it does |
